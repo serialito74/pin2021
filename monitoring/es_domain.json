@@ -1,7 +1,7 @@
 {
     "DomainName": "${ES_DOMAIN_NAME}",
-    "ElasticSearchVersion": "${ES_VERSION}",
-    "ElasticSearchClusterConfig": {
+    "ElasticsearchVersion": "${ES_VERSION}",
+    "ElasticsearchClusterConfig": {
         "InstanceType": "r5.large.elasticsearch",
         "InstanceCount": 1,
             "DedicatedMasterEnabled": false,
